@@ -16,3 +16,5 @@ Training an RL agent with Proximal Policy Optimization (PPO) from scratch using 
 - The actor outputs a probability distribution over actions and learns the best policy to maximize the reward. In PPO it selects actions and updates the policy using the clipped loss
 - Critic: judges how good the action was and thus, estimates a value (`value = critic(obs)`)
 - The critic outputs a single number/value estimate of the expected future reward from that state. In PPO is calculates the advantage (how much better an action is than the average) 
+
+- Contains: shared based (`torso`), policy head (`actor: outputs actions`) and value head (`critic: estimates state value`)

@@ -23,3 +23,21 @@ ENTROPY_COEF = 0.0          # encourages exploration
 VALUE_COEF = 0.5             
 BATCH_SIZE = 64             # size of mini batc during gradient descent per rollout (2048/32 = 64) 
 SEED = 42                   # random num generators 
+
+# actor-critic network
+class ActorCritic(nn.Module):
+    def __init__(self, obs_dim, act_dim):
+        super().__init__()
+        hidden = 64
+        self.torso = nn.Sequential ( # shared feature extractor 
+            nn.Linear(obs_dim, hidden),
+            nn.Tanh(),
+            nn.Linear(hidden, hidden),
+            nn.Tanh()
+        )
+        self.policy_head = nn.Linear(hidden, act_dim) # actor
+        self.value_head = nn.Linear(hidden, 1) # critic 
+    
+    def forward(self, x):
+        x = self.torso(x)
+        return self.policy_head(x), self.value_head(x)
