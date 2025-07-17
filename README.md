@@ -1,4 +1,4 @@
-Training an RL agent using Proximal Policy Optimization (PPO) Stable-Baselines3 (SB3) to solve the classic CartPole-v1 control problem. 
+Training an RL agent with Proximal Policy Optimization (PPO) from scratch using PyTorch (no SB3) to solve the classic CartPole-v1 control problem. 
 
 ## Background
 
