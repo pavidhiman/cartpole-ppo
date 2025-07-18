@@ -41,3 +41,37 @@ class ActorCritic(nn.Module):
     def forward(self, x):
         x = self.torso(x)
         return self.policy_head(x), self.value_head(x)
+    
+# rollout buffer - temp storage of data until next model update 
+class RolloutBuffer:
+    def __init(self):
+        self.clear()
+    
+    def store(self, state, action, reward, done, logp, value): # storing 1 frame into buffer
+        self.states.append(state)
+        self.actions.append(action)
+        self.rewards.append(reward)
+        self.dones.append(done)
+        self.logps.append(logp)
+        self.values.append(value)
+    
+    def clear(self):
+        self.states, self.actions  = [], []
+        self.rewards, self.dones   = [], []
+        self.logps, self.values    = [], []
+        
+# GAE 
+def compute_gae(rewards, dones, values, next_value):
+    advantages = []
+    gae = 0
+    for i in reversed(range(len(rewards))): 
+        delta = rewards[i] + GAMMA * (1 - dones[i]) * next_value - values[i] # temporal difference - actual vs. predicted
+        gae   = delta + GAMMA * LAMBDA * (1 - dones[i]) * gae
+        advantages.insert(0, gae)
+        next_value = values[i]
+    returns = [a + v for a, v in zip(advantages, values)] # ret = adv + estimated value
+
+    # convert to pytorch sensors 
+    adv   = torch.tensor(advantages, dtype=torch.float32, device=device)
+    ret   = torch.tensor(returns,    dtype=torch.float32, device=device)
+    return adv, ret # ret is target for critic network 
