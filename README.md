@@ -18,3 +18,16 @@ Training an RL agent with Proximal Policy Optimization (PPO) from scratch using 
 - The critic outputs a single number/value estimate of the expected future reward from that state. In PPO is calculates the advantage (how much better an action is than the average) 
 
 - Contains: shared based (`torso`), policy head (`actor: outputs actions`) and value head (`critic: estimates state value`)
+
+## Running 
+To train the PPO agent on CartPole from scratch:
+
+```bash
+python main.py
+```
+
+To watch the trained agent balancing the pole in real-time:
+
+```bash
+python evaluate.py
+```
