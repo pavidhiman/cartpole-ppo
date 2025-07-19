@@ -44,9 +44,9 @@ class ActorCritic(nn.Module):
     
 # rollout buffer - temp storage of data until next model update 
 class RolloutBuffer:
-    def __init(self):
+    def __init__(self):
         self.clear()
-    
+
     def store(self, state, action, reward, done, logp, value): # storing 1 frame into buffer
         self.states.append(state)
         self.actions.append(action)
@@ -54,11 +54,12 @@ class RolloutBuffer:
         self.dones.append(done)
         self.logps.append(logp)
         self.values.append(value)
-    
+
     def clear(self):
         self.states, self.actions  = [], []
         self.rewards, self.dones   = [], []
         self.logps, self.values    = [], []
+
         
 # GAE 
 def compute_gae(rewards, dones, values, next_value):
