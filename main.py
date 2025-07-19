@@ -124,3 +124,57 @@ def ppo_update(model, optimizer, buffer):
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
+            
+def train():
+    env = gym.make(ENV_ID)
+    env.action_space.seed(SEED)
+    obs_dim = env.observation_space.shape[0] # obs_dim = 4: [position, velocity, angle, angular velocity]
+    act_dim = env.action_space.n # act_dim = 2: left and right 
+
+    model = ActorCritic(obs_dim, act_dim).to(device)
+    optimizer = optim.Adam(model.parameters(), lr=LR)
+
+    buffer = RolloutBuffer()
+    episode_rewards, reward_history = [], []
+
+    obs, _ = env.reset(seed=SEED)
+    for step in range(1, TOTAL_STEPS + 1):
+        obs_tensor = torch.tensor(obs, dtype=torch.float32, device=device)
+        logits, value = model(obs_tensor)
+        dist = torch.distributions.Categorical(logits=logits)
+        action = dist.sample().item()
+        logp   = dist.log_prob(torch.tensor(action, device=device)).item()
+
+        next_obs, reward, terminated, truncated, _ = env.step(action)
+        done = terminated or truncated
+        buffer.store(obs, action, reward, done, logp, value.item())
+
+        obs = next_obs
+        episode_rewards.append(reward)
+
+        if done: # reset env if done 
+            obs, _ = env.reset()
+            reward_history.append(sum(episode_rewards))
+            episode_rewards.clear()
+
+        # every 2048 (rollout_len) - run training update 
+        if step % ROLLOUT_LEN == 0:
+            ppo_update(model, optimizer, buffer)
+            buffer.clear()
+
+            if reward_history:
+                print(f"Step {step:6d}  |  Avg reward (last 5 eps): {np.mean(reward_history[-5:]):.1f}")
+
+    env.close()
+    torch.save(model.state_dict(), "ppo_cartpole.pt")
+    
+    # plot
+    plt.plot(reward_history)
+    plt.title("Episode reward")
+    plt.xlabel("Episodes")
+    plt.ylabel("Return")
+    plt.savefig("learning_curve.png")
+    plt.show()
+
+if __name__ == "__main__":
+    train()
