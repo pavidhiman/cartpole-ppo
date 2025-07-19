@@ -75,3 +75,52 @@ def compute_gae(rewards, dones, values, next_value):
     adv   = torch.tensor(advantages, dtype=torch.float32, device=device)
     ret   = torch.tensor(returns,    dtype=torch.float32, device=device)
     return adv, ret # ret is target for critic network 
+
+def ppo_update(model, optimizer, buffer):
+    states  = torch.tensor(buffer.states, dtype=torch.float32, device=device)
+    actions = torch.tensor(buffer.actions, dtype=torch.int64,  device=device)
+    old_logps = torch.tensor(buffer.logps, dtype=torch.float32, device=device)
+    old_values = torch.tensor(buffer.values, dtype=torch.float32, device=device)
+
+    # value of last state for GAE
+    with torch.no_grad():
+        _, next_value = model(states[-1].unsqueeze(0))
+        next_value = next_value.squeeze().item() # convert to int and remove extra dim from unsqueeze 
+
+    advantages, returns = compute_gae(
+        buffer.rewards, buffer.dones, old_values.cpu().numpy(), next_value
+    )
+    advantages = (advantages - advantages.mean()) / (advantages.std() + 1e-8)  # normalize
+
+    # epoch loop 
+    dataset_size = states.size(0)
+    for _ in range(UPDATE_EPOCHS):
+        indices = np.arange(dataset_size)
+        np.random.shuffle(indices)
+
+        for start in range(0, dataset_size, BATCH_SIZE):
+            batch_idx = indices[start:start + BATCH_SIZE]
+            batch_states   = states[batch_idx]
+            batch_actions  = actions[batch_idx]
+            batch_oldlogp  = old_logps[batch_idx]
+            batch_returns  = returns[batch_idx]
+            batch_adv      = advantages[batch_idx]
+
+            logits, values = model(batch_states)
+            dist = torch.distributions.Categorical(logits=logits)
+            logp = dist.log_prob(batch_actions)
+            entropy = dist.entropy().mean()
+
+            # PPO clipped objective 
+            ratio = (logp - batch_oldlogp).exp()
+            surr1 = ratio * batch_adv # normal update to policy 
+            surr2 = torch.clamp(ratio, 1 - CLIP_EPS, 1 + CLIP_EPS) * batch_adv # clipped update to policy 
+            policy_loss = -torch.min(surr1, surr2).mean()
+
+            value_loss  = ((batch_returns - values.squeeze()) ** 2).mean()
+
+            loss = policy_loss + VALUE_COEF * value_loss - ENTROPY_COEF * entropy
+
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
