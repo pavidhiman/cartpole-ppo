@@ -16,10 +16,16 @@ done = False
 while True:
     obs_tensor = torch.tensor(obs, dtype=torch.float32, device=device)
     with torch.no_grad():
-        logits, _ = model(obs_tensor)
+        logits, value = model(obs_tensor)
     dist = torch.distributions.Categorical(logits=logits)
     action = dist.sample().item()
 
+    # logs for action
+    print(f"Obs: {obs}") # raw obs: (position, velocity, pole angle, pole velocity)
+    print(f"Action: {action}") # 0 = left, 1 = right
+    print(f"Estimated Value: {value.item():.2f}") # critics estimate
+    print("=" * 30)
+    
     obs, reward, terminated, truncated, _ = env.step(action)
     done = terminated or truncated
     if done:
