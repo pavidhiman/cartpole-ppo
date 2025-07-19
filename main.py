@@ -172,8 +172,8 @@ def train():
     # plot
     plt.plot(reward_history)
     plt.title("Episode reward")
-    plt.xlabel("Episodes")
-    plt.ylabel("Return")
+    plt.xlabel("Number of Episodes")
+    plt.ylabel("Return/Reward")
     plt.savefig("learning_curve.png")
     plt.show()
 
