@@ -1,0 +1,35 @@
+[
+  {
+    "componentID": 10001,
+    "componentNumber": 1,
+    "componentTitle": "Sleep Problems",
+    "componentDesc": "Over the past week, have you had trouble going to sleep at night or staying asleep through the night? Consider how rested you felt after waking up in the morning.", 
+    "surveyID": 1,
+    "type": "text"
+  }, 
+  {
+    "componentID": 10002,
+    "componentNumber": 2,
+    "componentTitle": "Daytime Sleepiness",
+    "componentDesc": "Over the past week, have you had trouble staying awake during the daytime?",
+    "surveyID": 2,
+    "type": "text"
+  },
+  {
+    "componentID": 10003,
+    "componentNumber": 3,
+    "componentTitle": "Pain and Other Sensations",
+    "componentDesc": "Over the past week, have you had uncomfortable feelings in your body like pain, aches, tingling, or cramps?",
+    "surveyID": 3,
+    "type": "text"
+  }, 
+  {
+    "componentID": 10004,
+    "componentNumber": 4,
+    "componentTitle": "Constipation Problems",
+    "componentDesc": "Over the past week have you had constipation troubles that cause you difficulty moving your bowels?",
+    "surveyID": 4,
+    "type": "text"
+  }
+
+  ]

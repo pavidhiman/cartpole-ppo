@@ -1,0 +1,26 @@
+[
+  {
+    "locationID": 1,
+    "locationName": "Genesis Center"
+  },
+  {
+    "locationID": 2,
+    "locationName": "Eastern Health Community Services CBS"
+  },
+  {
+    "locationID": 3,
+    "locationName": "Summerville Medical Clinic"
+  },
+  {
+    "locationID": 4,
+    "locationName": "Eastern Health Community Services Holyrood"
+  },
+  {
+    "locationID": 5,
+    "locationName": "NL Balance and Dizziness Center"
+  },
+  {
+    "locationID": 6,
+    "locationName": "Proactive Wellness Center"
+  }
+]

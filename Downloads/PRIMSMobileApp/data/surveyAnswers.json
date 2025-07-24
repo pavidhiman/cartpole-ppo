@@ -1,0 +1,142 @@
+[
+  {
+    "answerID": 1,
+    "componentID": 10001,
+    "surveyID": 1,
+    "answerText": "0: Normal",
+    "answerTextLong": "No problems."
+  },
+  {
+    "answerID": 2,
+    "componentID": 10001,
+    "surveyID": 1,
+    "answerText": "1: Slight",
+    "answerTextLong": "Sleep problems are present but usually do not cause trouble getting a full night of sleep."
+  },
+  {
+    "answerID": 3,
+    "componentID": 10001,
+    "surveyID": 1,
+    "answerText": "2: Mild",
+    "answerTextLong": "Sleep problems usually cause some difficulties getting a full night of sleep."
+  },
+  {
+    "answerID": 4,
+    "componentID": 10001,
+    "surveyID": 1,
+    "answerText": "3: Moderate",
+    "answerTextLong": "Sleep problems cause a lot of difficulties getting a full night of sleep, but I still usually sleep for more than half the night."
+  },
+  {
+    "answerID": 5,
+    "componentID": 10001,
+    "surveyID": 1,
+    "answerText": "4: Severe",
+    "answerTextLong": "I usually do not sleep for most of the night."
+  }, 
+  {
+    "answerID": 1,
+    "componentID": 10002,
+    "surveyID": 2,
+    "answerText": "0: Normal",
+    "answerTextLong": "No daytime sleepiness."
+  },
+  {
+    "answerID": 2,
+    "componentID": 10002,
+    "surveyID": 2,
+    "answerText": "1: Slight",
+    "answerTextLong": "Daytime sleepiness occurs, but I can resist and I stay awake."
+  },
+  {
+    "answerID": 3,
+    "componentID": 10002,
+    "surveyID": 2,
+    "answerText": "2: Mild",
+    "answerTextLong": "Sometimes I fall asleep when alone and relaxing. For example, while reading or watching TV."
+  },
+  {
+    "answerID": 4,
+    "componentID": 10002,
+    "surveyID": 2,
+    "answerText": "3: Moderate",
+    "answerTextLong": "I sometimes fall asleep when I should not. For example, while eating or talking with other people."
+  },
+  {
+    "answerID": 5,
+    "componentID": 10002,
+    "surveyID": 2,
+    "answerText": "4: Severe",
+    "answerTextLong": "I often fall asleep when I should not. For example, while eating or talking with other people."
+  },
+  {
+    "answerID": 1,
+    "componentID": 10003,
+    "surveyID": 3,
+    "answerText": "0: Normal",
+    "answerTextLong": "No uncomfortable feelings."
+  },
+  {
+    "answerID": 2,
+    "componentID": 10003,
+    "surveyID": 3,
+    "answerText": "1: Slight",
+    "answerTextLong": "I have these feelings. However, I can do things and be with other people without difficulty."
+  },
+  {
+    "answerID": 3,
+    "componentID": 10003,
+    "surveyID": 3,
+    "answerText": "2: Mild",
+    "answerTextLong": "These feelings cause some problems when I do things or am with other people."
+  },
+  {
+    "answerID": 4,
+    "componentID": 10003,
+    "surveyID": 3,
+    "answerText": "3: Moderate",
+    "answerTextLong": "These feelings cause a lot of problems, but they do not stop me from doing things or being with other people."
+  },
+  {
+    "answerID": 5,
+    "componentID": 10003,
+    "surveyID": 3,
+    "answerText": "4: Severe",
+    "answerTextLong": "These feelings stop me from doing things or being with other people."
+  },
+  {
+    "answerID": 1,
+    "componentID": 10004,
+    "surveyID": 4,
+    "answerText": "0: Normal",
+    "answerTextLong": "No constipation."
+  },
+  {
+    "answerID": 2,
+    "componentID": 10004,
+    "surveyID": 4,
+    "answerText": "1: Slight",
+    "answerTextLong": "I have been constipated. I use extra effort to move my bowels. However, this problem does not disturb my activities or my being comfortable."
+  },
+  {
+    "answerID": 3,
+    "componentID": 10004,
+    "surveyID": 4,
+    "answerText": "2: Mild",
+    "answerTextLong": "Constipation causes me to have some troubles doing things or being comfortable."
+  },
+  {
+    "answerID": 4,
+    "componentID": 10004,
+    "surveyID": 4,
+    "answerText": "3: Moderate",
+    "answerTextLong": "Constipation causes me to have a lot of trouble doing things or being comfortable. However, it does not stop me from doing anything."
+  },
+  {
+    "answerID": 5,
+    "componentID": 10004,
+    "surveyID": 4,
+    "answerText": "4: Severe",
+    "answerTextLong": "I usually need physical help from someone else to empty my bowels."
+  }
+]

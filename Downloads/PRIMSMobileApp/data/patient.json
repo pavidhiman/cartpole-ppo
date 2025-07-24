@@ -1,0 +1,9 @@
+{
+    "patientID": 123,
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "dob": "1990-01-01",
+    "gender": "Female",
+    "email": "jane.doe@example.com",
+    "phone": "555-1234"
+  }

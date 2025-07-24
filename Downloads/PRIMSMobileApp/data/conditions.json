@@ -1,0 +1,14 @@
+[
+  {
+    "conditionID": 1,
+    "condition": "Parkinsons"
+  },
+  {
+    "conditionID": 2,
+    "condition": "Alzheimers"
+  },
+  {
+    "conditionID": 3,
+    "condition": "Huntingtons"
+  }
+]

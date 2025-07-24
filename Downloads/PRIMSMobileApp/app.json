@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "PRIMS Mobile",
+    "slug": "PRIMSMobile",
+    "version": "1.0.8",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "userInterfaceStyle": "light",
+    "scheme": "primsapp",
+    "splash": {
+      "image": "./assets/images/PRIMS-Logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.anonymous.PWPPortal",
+      "buildNumber": "2",
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": ["primsapp"]
+          }
+        ]
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.PWPPortal",
+      "versionCode": 2,
+      "useNextNotificationsApi": true,
+      "intentFilters": [
+        {
+          "autoVerify": true,
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "primsapp",
+              "host": "auth"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "833253c0-af58-4ea4-b19c-0ea89e1c0d45"
+      }
+    },
+    "plugins": ["expo-font", "expo-secure-store"]
+  }
+}

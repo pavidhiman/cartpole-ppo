@@ -1,0 +1,28 @@
+{
+  "patient": {
+    "patientID": 123,
+    "preferredLocation": "Genesis Center",
+    "firstName": "John",
+    "lastName": "Doe",
+    "dob": "1990-01-01",
+    "gender": "Male"
+  },
+  "user": {
+    "userID": 1,
+    "dob": "1990-01-01"
+  },
+  "notificationSettings": {
+    "userNotificationSettingsID": 1,
+    "userID": 1,
+    "receiveNotifications": 1,
+    "emailNotices": 1,
+    "textNotices": 1,
+    "appNotices": 1
+  },
+  "patientConditions": [
+    {
+      "patientID": 123,
+      "conditionID": 1
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+export const DEBUG_BYPASS_AUTH = false; // change to false when scopes are fixed - set to false to see entire flow 

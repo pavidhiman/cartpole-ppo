@@ -1,0 +1,12 @@
+[
+  {
+    "trialId": "TRIAL-001",
+    "userID": 9999,
+    "patientID": 8888
+  },
+  {
+    "trialId": "TRIAL-XYZ",
+    "userID": 1001,
+    "patientID": 9001
+  }
+]

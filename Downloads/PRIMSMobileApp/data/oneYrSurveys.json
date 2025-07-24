@@ -1,0 +1,30 @@
+[
+  {
+    "patientSurveyID": 1,
+    "surveyID": 1,
+    "surveyDesc": "Monthly Parkinson's Questionnaire",
+    "dateTimeCompleted": "2024-01-15T10:30:00",
+    "isClinicalTrial": false
+  },
+  {
+    "patientSurveyID": 2,
+    "surveyID": 1,
+    "surveyDesc": "Monthly Parkinson's Questionnaire",
+    "dateTimeCompleted": "2024-02-15T14:45:00",
+    "isClinicalTrial": false
+  },
+  {
+    "patientSurveyID": 3,
+    "surveyID": 1,
+    "surveyDesc": "Monthly Parkinson's Questionnaire",
+    "dateTimeCompleted": "2024-03-15T09:15:00",
+    "isClinicalTrial": false
+  },
+  {
+    "patientSurveyID": 4,
+    "surveyID": 2,
+    "surveyDesc": "Clinical Trial Survey",
+    "dateTimeCompleted": "2024-03-20T11:00:00",
+    "isClinicalTrial": true
+  }
+]

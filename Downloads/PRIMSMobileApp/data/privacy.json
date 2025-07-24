@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "Heading": "Introduction and Scope",
+    "Content": "This document is a privacy notice to users and data subjects about the use and processing of their personal data. It is recommended that a thorough review of all privacy and other legal requirements are considered when drafting the formal privacy notice and publishing it for data subjects to review before the collection of their personal information."
+  },
+  {
+    "id": 2,
+    "Heading": "Data Controller and Data Processor",
+    "Content": "PragmaClin’s business customers are the data controllers for most of the information that is entered into the PragmaClin web application, website, and supporting systems or that is shared periodically with PragmaClin employees to deliver services. This positions PragmaClin as the data processor for most information stored and processed by PragmaClin. There are some pieces of information that are collected directly by PragmaClin to facilitate security, logging, and application performance. These items include IP address and behavior within the PragmaClin platform. For these pieces of information, PragmaClin acts as the data controller and processor. Additionally, PragmaClin employs a variety of technologies and partners that periodically act as sub-processors (detailed list below). If users have any questions or concerns about the processing and handling of their personal information, they may reach out to PragmaClin directly by email at info@pragmaclin.com."
+  },
+  {
+    "id": 3,
+    "Heading": "Types of Data Collected",
+    "Content": "The PragmaClin web application and supporting applications collect the following types of personal data: cookies, usage data (e.g., page and link clicks, time on page), email address, phone number, first name, last name, province, state, country, ZIP/Postal code, city, address, and company name. Complete details on each type of personal data collected are provided in the dedicated sections of this Privacy Policy or by specific explanation texts displayed before the data collection. The PragmaClin web application may collect personal data that the user may freely provide, or, in case of usage data, collect when using this website, the PragmaClin web application, and its supporting applications. Specific data is required for the PragmaClin web application and supporting applications to provide services. If data is mandatory, it is noted throughout the website and PragmaClin web application. If the PragmaClin website or PragmaClin web application specifically states that data is not mandatory, users are free to not share this data without consequences to the availability or the functioning of the service. Users who are uncertain about which personal data is mandatory are welcome to contact PragmaClin at info@pragmaclin.com. Any use of cookies–or other tracking tools–by the PragmaClin website, the PragmaClin web application, and its supporting applications serves the purpose of providing the service for which PragmaClin has been engaged, in addition to any other purposes described in the present document and the Cookie Policy."
+  },
+  {
+    "id": 4,
+    "Heading": "Mode, Place, and Methods of Processing the Data",
+    "Content": "PragmaClin takes appropriate security measures to prevent unauthorized access, disclosure, modification, or data destruction. Data is processed using computers or tech-enabled tools, following organizational policies and procedures strictly related to the purposes indicated. In some cases, data may be accessible to PragmaClin employees involved with the PragmaClin website’s operation, the PragmaClin web application (platform), and supporting applications. Data may also be accessible to external parties appointed, if necessary, as data processors or sub-processors by PragmaClin. External parties may include third-party technical service providers, hosting providers, and IT companies."
+  },
+  {
+    "id": 5,
+    "Heading": "Legal Basis of Processing",
+    "Content": "PragmaClin may process personal data relating to users if one of the following applies: Users have given their consent for one or more specific purposes. Provision of data is necessary for the performance of an agreement with the user. Processing is necessary for compliance with a legal obligation. Processing is necessary for the legitimate interests pursued by the controller or by a third party. In any case, PragmaClin will gladly help clarify the specific legal basis that applies to the processing, mainly whether the provision of personal data is a statutory or contractual requirement or a requirement necessary to enter into a contract."
+  },
+  {
+    "id": 6,
+    "Heading": "Place",
+    "Content": "The data is processed at PragmaClin’s operating offices, hosting facilities, and, for some data, third-party sub-processors. The majority of data is stored and processed within Canada. In some cases data may be stored within the US or EU via third-party sub-processors. Depending on the user’s location, data transfers may involve transferring the user’s data to a country other than their own. To find out more about the processing of such transferred data, users can consult the section containing details about the processing of personal data. Users are entitled to learn about cross-border data transfers. If any such transfer occurs, users can find out more by checking the relevant sections of this document or inquiring directly with PragmaClin."
+  },
+  {
+    "id": 7,
+    "Heading": "Retention Time",
+    "Content": "Personal data is processed and stored for as long as required to fulfill the purpose for which it is collected. Therefore: Personal data collected for the performance of a contract between PragmaClin and a business customer is retained until such contract has been entirely performed or the business customer asks for the data to be deleted. Personal data collected for PragmaClin’s legitimate interests shall be retained as long as needed to fulfill such purposes. Users may find specific information regarding PragmaClin’s legitimate interests within the relevant sections of this document or by contacting PragmaClin. PragmaClin may be allowed to retain personal information for a more extended period whenever the user has given consent to such processing, as long as such consent is not withdrawn. Furthermore, PragmaClin may be obliged to retain personal data for a more extended period whenever required to perform a legal obligation or upon order of an authority. Once the retention period expires, the user’s personal data will be securely deleted."
+  }
+]

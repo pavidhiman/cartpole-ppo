@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+
+    "Content": "BY INSTALLING OR USING PRAGMACLIN LIMITED PRODUCTS OR SERVICES OR ACCESSING THE PRAGMACLIN LIMITED SERVICES YOU ACCEPT ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT."
+  },
+  {
+    "id": 2,
+
+    "Content": "THIS IS A CONTRACT. UNLESS YOU HAVE A SEPARATE WRITTEN LICENSE AGREEMENT WITH PRAGMACLIN LIMITED FOR USE OF THIS SOFTWARE OR THE PRAGMACLIN LIMITED SERVICES, THIS END USER LICENSE AGREEMENT APPLIES. BY INSTALLING AND USING THIS SOFTWARE YOU ACCEPT ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT. "
+  },
+  {
+    "id": 3,
+
+    "Content": "\"PRAGMACLIN\" TM Copyright All rights reserved. This license applies to the web-hosted services for \"PRAGMACLIN LIMITED\" remote patient monitoring service PRIMS (Parkinson Remote Interactive Monitoring System), the hardware used to monitor patients and any local client software used to access the web hosted solution."
+  },
+  {
+    "id": 4,
+
+    "Content": "\"PRIMS\" is a patient monitoring solution provided by PRAGMACLIN LIMITED as a web-based monitoring solution delivered via a Software as a Service (SaaS) / Cloud architecture proprietary to and owned by PRAGMACLIN LIMITED, and includes all related documentation. The term \"PRIMS Software\" also shall include any upgrades or updates licensed by PRAGMACLIN LIMITED. This license provides use of and access to the web hosted compiled object code version of the \"PRIMS Software\" and specifically excludes access to and use of source code."
+  },
+  {
+    "id": 5,
+
+    "Content": "Please read this Agreement carefully. Use or continued use of the \"PRIMS Software\" shall constitute acceptance of this Agreement."
+  },
+  {
+    "id": 6,
+
+    "Content": "Upon your acceptance of this Agreement, PRAGMACLIN LIMITED grants to you a nonexclusive license to use the \"PRIMS Software\", provided that you agree to the following:"
+  },
+  {
+    "id": 7,
+
+    "Content": "1. USE OF THE \"PRIMS SOFTWARE\" (\"Purpose\")"
+  },
+  {
+    "id": 8,
+
+    "Content": "PRIMS Software has been provided to you by PRAGMACLIN LIMITED solely for the purpose of patient monitoring, recording and reporting to you or your clinician, (\"the Purpose\").  The PRIMS Software may only be accessed by your assigned user accounts and may only be used for \"the Purpose\". Your user account must contain your unique valid email address.  Your user account may not be shared with other persons."
+  },
+  {
+    "id": 9,
+
+    "Content": "2. COPYRIGHT AND TRADEMARK RIGHTS"
+  },
+  {
+    "id": 10,
+
+    "Content": "The PRIMS Software is wholly owned by PRAGMACLIN LIMITED, and its structure, organization and code are the valuable trade secrets of PRAGMACLIN LIMITED. The knowledge base, logos and trademarks incorporated in the PRIMS Software are proprietary to PRAGMACLIN LIMITED."
+  },
+  {
+    "id": 11,
+
+    "Content": "You may use trademarks only insofar as required to comply with Section 1 of this Agreement and to identify printed output produced by the PRIMS Software in accordance with accepted trademark practice, including identification of trademark owner's name. Such use of any trademark does not give you any rights of ownership in that trademark or the PRIMS Software.  PRIMS Software is also protected by Canadian and International Copyright Law and International Treaty provisions. This Agreement does not grant you any intellectual property rights in the PRIMS Software."
+  },
+  {
+    "id": 12,
+
+    "Content": "3. RESTRICTIONS"
+  },
+  {
+    "id": 13,
+
+    "Content": "You agree not to modify, adapt, translate, reverse engineer, de-compile, disassemble or otherwise attempt to discover the source code of the PRIMS Software. You agree only to use the PRIMS Software for the \"Purpose\"."
+  },
+  {
+    "id": 14,
+
+    "Content": "You agree not to display the screens, features, user documentation or use of the PRIMS Software to other software vendors or distributors. You agree not to use the PRIMS Software to provide fee-for-service, commercial or time-sharing activities. "
+  },
+  {
+    "id": 15,
+
+    "Content": "For certainty, the PRIMS Software may not be sold, re-sold or exported or used in any commercial manner unless a signed agreement has been entered with PRAGMACLIN LIMITED."
+  },
+  {
+    "id": 16,
+
+    "Content": "4. WARRANTY"
+  },
+  {
+    "id": 17,
+
+    "Content": "To the extent you are paying for service levels and warranties in connection with your use of the \"PRIMS Software\", your access to and use of the PRIMS Software may include those additional rights.  Failure to use the PRIMS Software in accordance with the user guides that accompany the PRIMS Software; or using the PRIMS Software with third party hardware or software not approved by \"PRAGMACLIN LIMITED\" may result in the warranty being rendered invalid by the user."
+  },
+  {
+    "id": 18,
+
+    "Content": "EXCEPT FOR THE WARRANTIES SET OUT ABOVE, PRAGMACLIN LIMITED DISCLAIMS ANY AND ALL OTHER WARRANTIES, CONDITIONS, OR REPRESENTATIONS NOT EXPRESSLY MADE HEREIN WITH RESPECT TO THE LICENSED \"PRIMS SOFTWARE\" OR ANY PART THEREOF, INCLUDING ANY AND ALL OF THE IMPLIED WARRANTIES OF CONDITION, TITLE, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE (WHETHER OR NOT PRAGMACLIN LIMITED  KNOWS, HAS REASON TO KNOW, HAS BEEN ADVISED, OR IS OTHERWISE IN FACT AWARE OF ANY SUCH PURPOSE)."
+  },
+  {
+    "id": 19,
+
+    "Content": "5. SUPPORT"
+  },
+  {
+    "id": 20,
+
+    "Content": "Product technical support includes error correction fixes, new release upgrades and any between release upgrades or patches, as purchased.  If the PRIMS Software does not perform in accordance to User Guides that accompany the product, the user must contact PRAGMACLIN LIMITED or its representative for product support."
+  },
+  {
+    "id": 21,
+
+    "Content": "6. LIABILITY"
+  },
+  {
+    "id": 22,
+
+    "Content": "PRAGMACLIN LIMITED DOES NOT WARRANT THAT THE OPERATION OF THE PRIMS SOFTWARE SHALL BE UNINTERRUPTED OR ERROR-FREE. PRAGMACLIN LIMITED DOES NOT REPRESENT OR WARRANT CONTINUAL AND UNINTERRUPTED SERVICE DURING THE TERM OF THIS AGREEMENT. IN NO EVENT SHALL PRAGMACLIN LIMITED BE LIABLE FOR ANY DAMAGES RESULTING FROM OR RELATED TO ANY FAILURE OR DELAY OF PRAGMACLIN LIMITED TO PROVIDE FOR THE USE OF THE \"PRIMS SOFTWARE\". SUCH FAILURE OR DELAY SHALL NOT CONSTITUTE A DEFAULT UNDER THIS AGREEMENT."
+  },
+  {
+    "id": 23,
+
+    "Content": "PRAGMACLIN LIMITED IS NOT RESPONSIBLE FOR ANY ERRORS OR OMISSIONS, OR FOR THE RESULTS OBTAINED FROM THE USE OF THE \"PRIMS SOFTWARE\". THE \"PRIMS SOFTWARE\" IS PROVIDED \"AS IS\", WITH NO GUARANTEE OF COMPLETENESS, ACCURACY, TIMELINESS, OR OF THE RESULTS OBTAINED FROM THE USE OF THIS INFORMATION. IN NO EVENT WILL PRAGMACLIN LIMITED OR THE DIRECTORS, OFFICERS, AGENTS OR EMPLOYEES OF PRAGMACLIN LIMITED BE LIABLE FOR ANY DECISION MADE OR ACTION TAKEN IN RELIANCE ON THE INFORMATION IN THE \"PRIMS SOFTWARE\" OR THE PROVISION OF THE PRIMS SOFTWARE OR BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES OR ANY OTHER DAMAGES WHATSOEVER AND HOWSOEVER CAUSED, ARISING OUT OF OR IN CONNECTION WITH USE OF THE PRIMS SOFTWARE, OR IN RELIANCE ON THE MATERIAL CONTAINED THEREIN. UNDER NO CIRCUMSTANCES SHALL PRAGMACLIN LIMITED BE RESPONSIBLE FOR ANY ADVERSE IMPACT RESULTING FROM LOSS OF DATA OR DATA ERRORS, DAMAGES ON ACCOUNT OF DOWNTIME, BUSINESS INTERRUPTION, LOSS OF BUSINESS OPERATIONS, OR LOSS OF PROFITS."
+  },
+  {
+    "id": 24,
+
+    "Content": "IN THE EVENT THAT PRIMS SOFTWARE DOES NOT PERFORM AS PER THE WARRANTY IN SECTION (4.) ABOVE, ANY LIABILITY OF PRAGMACLIN LIMITED WILL BE LIMITED EXCLUSIVELY TO ERROR CORRECTION OF THE PRIMS SOFTWARE OR PRODUCT REPLACEMENT, UPDATES, PATCHES, FIXES OR WORKAROUNDS AS PROVIDED BY PRAGMACLIN LIMITED."
+  },
+  {
+    "id": 25,
+
+    "Content": "7. GENERAL PROVISIONS AND GOVERNING LAW"
+  },
+  {
+    "id": 26,
+
+    "Content": "You the user acknowledge this Agreement, understand it, and that by installing or using the software agree to be bound by its terms and conditions. No variation of the terms of this Agreement or any different terms will be enforceable against PRAGMACLIN LIMITED unless PRAGMACLIN LIMITED gives its express consent, including an express waiver of the terms of this Agreement, in a writing signed by an officer of PRAGMACLIN LIMITED. If any part of this Agreement is found void and unenforceable, it will not affect the validity of the balance of the Agreement, which shall remain valid and enforceable according to its terms. This agreement will be governed by the laws of the province of Newfoundland and Labrador, Canada."
+  },
+  {
+    "id": 27,
+
+    "Content": "8. TERMINATION OF AGREEMENT"
+  },
+  {
+    "id": 28,
+
+    "Content": "The license to use the \"PRIMS Software\" is for a fixed time period and payment of ongoing monthly fees.  Unless the fees are paid, the license will expire automatically."
+  }
+]

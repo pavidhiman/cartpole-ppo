@@ -1,0 +1,8 @@
+{
+  "ROOT_URL": "https://pc-api-gw-dev.azure-api.net/core-api",
+  "AUTH_ENDPOINT": "https://pragmaclindevb2c.b2clogin.com/pragmaclindevb2c.onmicrosoft.com/b2c_1_signupsignindev/oauth2/v2.0/authorize",
+  "CLIENT_ID": "440fae66-9021-4615-a16f-7ac1f6fd4c6d",
+  "TOKEN_ENDPOINT": "https://pragmaclindevb2c.b2clogin.com/pragmaclindevb2c.onmicrosoft.com/b2c_1_signupsignindev/oauth2/v2.0/token",
+  "CUSTOM_SCOPE": "https://pragmaclindevb2c.onmicrosoft.com/primsapi/user.access",
+  "LOGOUT_URL": "https://pragmaclindevb2c.b2clogin.com/pragmaclindevb2c.onmicrosoft.com/b2c_1_signupsignindev/oauth2/v2.0/logout?post_logout_redirect_uri=primsapp://auth"
+}

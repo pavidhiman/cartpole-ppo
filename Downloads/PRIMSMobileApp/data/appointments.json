@@ -1,0 +1,32 @@
+{
+    "patientAppointments": [
+      {
+        "patientAppointmentID": 1,
+        "date": "2024-06-01",
+        "time": "10:00",
+        "clinician": "Dr. Smith",
+        "location": "Room 101"
+      },
+      {
+        "patientAppointmentID": 2,
+        "date": "2024-06-05",
+        "time": "14:00",
+        "clinician": "Dr. Jones",
+        "location": "Room 202"
+      }
+    ],
+    "availableSlots": [
+      {
+        "slotID": 1,
+        "time": "09:00"
+      },
+      {
+        "slotID": 2,
+        "time": "10:00"
+      },
+      {
+        "slotID": 3,
+        "time": "11:00"
+      }
+    ]
+  }
